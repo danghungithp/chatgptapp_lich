@@ -1,0 +1,27 @@
+openapi: 3.0.0
+info:
+  title: Lịch Trình Cá Nhân API
+  version: 1.0.0
+paths:
+  /get-schedule:
+    get:
+      summary: Lấy lịch làm việc
+      responses:
+        '200':
+          description: Thành công
+  /add-event:
+    post:
+      summary: Thêm sự kiện vào lịch
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                title:
+                  type: string
+                time:
+                  type: string
+      responses:
+        '200':
+          description: Sự kiện đã được thêm

@@ -1,0 +1,19 @@
+{
+    "schema_version": "v1",
+    "name_for_human": "Lịch Trình Cá Nhân",
+    "name_for_model": "personal_schedule",
+    "description_for_human": "Plugin quản lý và truy vấn lịch làm việc cá nhân.",
+    "description_for_model": "Plugin hỗ trợ quản lý lịch, thêm sự kiện và xem lịch làm việc.",
+    "auth": {
+      "type": "none"
+    },
+    "api": {
+      "type": "openapi",
+      "url": "https://yourdomain.com/openapi.yaml",
+      "is_user_authenticated": false
+    },
+    "logo_url": "https://yourdomain.com/logo.png",
+    "contact_email": "support@yourdomain.com",
+    "legal_info_url": "https://yourdomain.com/legal"
+  }
+  
